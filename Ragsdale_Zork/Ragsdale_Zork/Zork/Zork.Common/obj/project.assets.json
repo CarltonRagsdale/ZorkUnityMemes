@@ -377,11 +377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlt\\OneDrive\\Desktop\\ZorkDesigner\\ZorkDesignerAGV-master\\ZorkDesignerAGV-master\\Zork\\Zork.Common\\Zork.Common.csproj",
+      "projectUniqueName": "C:\\Users\\carlt\\OneDrive\\Documents\\GitHub\\ZorkUnityMemes\\Ragsdale_Zork\\Ragsdale_Zork\\Zork\\Zork.Common\\Zork.Common.csproj",
       "projectName": "Zork.Common",
-      "projectPath": "C:\\Users\\carlt\\OneDrive\\Desktop\\ZorkDesigner\\ZorkDesignerAGV-master\\ZorkDesignerAGV-master\\Zork\\Zork.Common\\Zork.Common.csproj",
+      "projectPath": "C:\\Users\\carlt\\OneDrive\\Documents\\GitHub\\ZorkUnityMemes\\Ragsdale_Zork\\Ragsdale_Zork\\Zork\\Zork.Common\\Zork.Common.csproj",
       "packagesPath": "C:\\Users\\carlt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlt\\OneDrive\\Desktop\\ZorkDesigner\\ZorkDesignerAGV-master\\ZorkDesignerAGV-master\\Zork\\Zork.Common\\obj\\",
+      "outputPath": "C:\\Users\\carlt\\OneDrive\\Documents\\GitHub\\ZorkUnityMemes\\Ragsdale_Zork\\Ragsdale_Zork\\Zork\\Zork.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlt\\AppData\\Roaming\\NuGet\\NuGet.Config",

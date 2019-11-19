@@ -4,6 +4,11 @@ using UnityEngine;
 using Zork.Common;
 using TMPro;
 
+
+
+//INCREMENT SCORE BY INPUTTING 'r' INTO THE COMMAND
+
+
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
@@ -34,14 +39,11 @@ public class GameManager : MonoBehaviour
     {
         TextAsset gameFileAsset = Resources.Load<TextAsset>(GameFileAssetName);
         Game = Game.Load(gameFileAsset.text, OutputService, InputService);
+        ScoreText.text = $"Score: {Game.Player.Score}";
+        MovesText.text = $"Moves: {Game.Player.timesMoves}";
+        LocationText.text = $"Location: {Game.Player.Location}";
 
     }
-
-    void Start()
-    {
-       // Game.CommandManager.PerformCommand(Game, "LOOK");
-    }
-    
 
     // Update is called once per frame
     void Update()
@@ -55,13 +57,10 @@ public class GameManager : MonoBehaviour
                 ScoreText.text = $"Score: {Game.Player.Score}";
                 MovesText.text = $"Moves: {Game.Player.timesMoves}";
                 LocationText.text = $"Location: {Game.Player.Location}";
-
-
             }
             InputService.InputField.text = string.Empty;
             InputService.InputField.Select();
             InputService.InputField.ActivateInputField();
-
         }
 
         if (Input.GetKey("escape"))
