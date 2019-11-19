@@ -61,3 +61,14 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+*/bin
+*/obj
+.vs/
+Zork.Unity/Library
+Zork.Unity/Temp
+Zork.Unity/obj
+Zork.Unity/Logs
+Zork.Unity/Zork.Unity.sln
+Zork.Unity/Assembly-CSharp.csproj
+packages/
+
