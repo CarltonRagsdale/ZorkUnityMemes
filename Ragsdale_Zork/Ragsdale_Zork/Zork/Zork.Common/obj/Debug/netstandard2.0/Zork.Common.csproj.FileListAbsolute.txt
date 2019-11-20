@@ -54,3 +54,12 @@ C:\Users\carlt\OneDrive\Desktop\ZorkDesigner\ZorkDesignerAGV-master\ZorkDesigner
 C:\Users\carlt\OneDrive\Desktop\ZorkDesigner\ZorkDesignerAGV-master\ZorkDesignerAGV-master\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.Fody.CopyLocal.cache
 C:\Users\carlt\OneDrive\Desktop\ZorkDesigner\ZorkDesignerAGV-master\ZorkDesignerAGV-master\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.dll
 C:\Users\carlt\OneDrive\Desktop\ZorkDesigner\ZorkDesignerAGV-master\ZorkDesignerAGV-master\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.pdb
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Unity\Assets\netstandard2.0\Zork.Common.deps.json
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Unity\Assets\netstandard2.0\Zork.Common.dll
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Unity\Assets\netstandard2.0\Zork.Common.pdb
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csprojAssemblyReference.cache
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.AssemblyInfoInputs.cache
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.AssemblyInfo.cs
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.csproj.Fody.CopyLocal.cache
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.dll
+C:\Users\carlt\OneDrive\Documents\GitHub\ZorkUnityMemes\Ragsdale_Zork\Ragsdale_Zork\Zork\Zork.Common\obj\Debug\netstandard2.0\Zork.Common.pdb

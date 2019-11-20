@@ -39,9 +39,11 @@ public class GameManager : MonoBehaviour
     {
         TextAsset gameFileAsset = Resources.Load<TextAsset>(GameFileAssetName);
         Game = Game.Load(gameFileAsset.text, OutputService, InputService);
-        ScoreText.text = $"Score: {Game.Player.Score}";
-        MovesText.text = $"Moves: {Game.Player.timesMoves}";
+
         LocationText.text = $"Location: {Game.Player.Location}";
+
+        Game.Player.ScoreChanged += ScoreChanged;
+        Game.Player.PlayerMoved += MoveChanged;
 
     }
 
@@ -54,8 +56,6 @@ public class GameManager : MonoBehaviour
             {
                 Game.Output.WriteLine($">{InputService.InputField.text}");
                 InputService.ProcessInput();
-                ScoreText.text = $"Score: {Game.Player.Score}";
-                MovesText.text = $"Moves: {Game.Player.timesMoves}";
                 LocationText.text = $"Location: {Game.Player.Location}";
             }
             InputService.InputField.text = string.Empty;
@@ -73,5 +73,15 @@ public class GameManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    private void MoveChanged(object sender, int i)
+    {
+        MovesText.text = $"Moves: {Game.Player.timesMoves}";
+    }
+
+    private void ScoreChanged(object sender, int i)
+    {
+        ScoreText.text = $"Score: {Game.Player.Score}";
     }
 }
